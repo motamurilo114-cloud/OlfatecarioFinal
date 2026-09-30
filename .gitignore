@@ -1,0 +1,10 @@
+.env
+dados-iniciais.json
+node_modules/
+backend/
+dist/
+build/
+cache/
+__pycache__/
+.venv*/
+*.log

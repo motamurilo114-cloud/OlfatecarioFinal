@@ -1,0 +1,31 @@
+# Copie este arquivo para .github/workflows/build.yml na raiz do repositório
+# (a raiz deve conter as pastas servidor/ e electron/, sem .env nem dados-iniciais.json).
+name: Gerar Olfatecario
+on: workflow_dispatch   # roda quando você clica em "Run workflow" na aba Actions
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { os: windows-latest, script: "dist:win" }
+          - { os: macos-latest,   script: "dist:mac" }   # Macs com chip Apple (M1, M2, M3...)
+          - { os: macos-15-intel, script: "dist:mac" }   # Macs Intel
+    runs-on: ${{ matrix.os }}
+    defaults: { run: { working-directory: electron } }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: npm install
+      - run: npm run backend
+      - run: npm run ${{ matrix.script }}
+        env: { CSC_IDENTITY_AUTO_DISCOVERY: "false" }
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Olfatecario-${{ matrix.os }}
+          path: |
+            electron/dist/*.exe
+            electron/dist/*.dmg
