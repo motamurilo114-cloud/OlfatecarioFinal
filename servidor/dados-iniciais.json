@@ -1,0 +1,1965 @@
+{
+ "versao": 1,
+ "origem": "Planilhas predinho_viabilidade e Viabilidade Financeira (consultoria FEA Jr, 2026)",
+ "salas": [
+  {
+   "id": "s1",
+   "nome": "Sala 1",
+   "ocupante": "Manu (Olfatecário)",
+   "propria": true,
+   "aluguel": 0,
+   "ativa": true
+  },
+  {
+   "id": "s2",
+   "nome": "Sala 2",
+   "ocupante": "Silvia (Dib)",
+   "propria": false,
+   "aluguel": 3000,
+   "ativa": true
+  },
+  {
+   "id": "s3",
+   "nome": "Sala 3",
+   "ocupante": "Tuca (Pinablue)",
+   "propria": false,
+   "aluguel": 3100,
+   "ativa": true
+  },
+  {
+   "id": "s4",
+   "nome": "Sala 4",
+   "ocupante": "Tuca (Pinablue)",
+   "propria": false,
+   "aluguel": 3100,
+   "ativa": true
+  }
+ ],
+ "cats": [
+  {
+   "id": "gian",
+   "nome": "Aluguel Gian (boleto)",
+   "grupo": "fixos"
+  },
+  {
+   "id": "dinheiro",
+   "nome": "Aluguel em dinheiro (por fora)",
+   "grupo": "fixos"
+  },
+  {
+   "id": "vera",
+   "nome": "Aluguel Vera",
+   "grupo": "fixos"
+  },
+  {
+   "id": "condominio",
+   "nome": "Condomínio",
+   "grupo": "fixos"
+  },
+  {
+   "id": "iptu",
+   "nome": "IPTU",
+   "grupo": "fixos"
+  },
+  {
+   "id": "mkt",
+   "nome": "Marketing do prédio",
+   "grupo": "variaveis"
+  },
+  {
+   "id": "mktacoes",
+   "nome": "Ações de marketing / eventos",
+   "grupo": "variaveis"
+  },
+  {
+   "id": "faxina",
+   "nome": "Faxina",
+   "grupo": "variaveis"
+  },
+  {
+   "id": "limpeza",
+   "nome": "Materiais de limpeza",
+   "grupo": "variaveis"
+  },
+  {
+   "id": "energia",
+   "nome": "Energia",
+   "grupo": "variaveis"
+  },
+  {
+   "id": "internet",
+   "nome": "Internet",
+   "grupo": "variaveis"
+  },
+  {
+   "id": "vaga",
+   "nome": "Vaga de carro",
+   "grupo": "pessoais"
+  }
+ ],
+ "meses": [
+  {
+   "id": "2026-02",
+   "label": "Fev/26",
+   "previsto": false,
+   "custos": {
+    "gian": 0,
+    "dinheiro": 0,
+    "vera": 0,
+    "condominio": 1831.5,
+    "iptu": 983,
+    "mkt": 610.74,
+    "mktacoes": 0,
+    "faxina": 0,
+    "limpeza": 0,
+    "energia": 137.51,
+    "internet": 0,
+    "vaga": 0
+   },
+   "receitas": {
+    "s1": 0,
+    "s2": 3279.32,
+    "s3": 0,
+    "s4": 0
+   },
+   "extras": [
+    {
+     "nome": "Mariana (Comodita)",
+     "valor": 3279.32
+    }
+   ]
+  },
+  {
+   "id": "2026-03",
+   "label": "Mar/26",
+   "previsto": false,
+   "custos": {
+    "gian": 0,
+    "dinheiro": 0,
+    "vera": 0,
+    "condominio": 1831.5,
+    "iptu": 983,
+    "mkt": 610.74,
+    "mktacoes": 989.7,
+    "faxina": 0,
+    "limpeza": 0,
+    "energia": 54.82,
+    "internet": 57.13,
+    "vaga": 200
+   },
+   "receitas": {
+    "s1": 0,
+    "s2": 3518.36,
+    "s3": 0,
+    "s4": 0
+   },
+   "extras": [
+    {
+     "nome": "Mariana (Comodita)",
+     "valor": 3518.26
+    }
+   ]
+  },
+  {
+   "id": "2026-04",
+   "label": "Abr/26",
+   "previsto": false,
+   "custos": {
+    "gian": 0,
+    "dinheiro": 0,
+    "vera": 0,
+    "condominio": 1831.5,
+    "iptu": 983,
+    "mkt": 725.01,
+    "mktacoes": 1070.28,
+    "faxina": 540,
+    "limpeza": 0,
+    "energia": 117.72,
+    "internet": 99.99,
+    "vaga": 200
+   },
+   "receitas": {
+    "s1": 0,
+    "s2": 3471.28,
+    "s3": 0,
+    "s4": 0
+   },
+   "extras": [
+    {
+     "nome": "Mariana (Comodita)",
+     "valor": 3471.28
+    }
+   ]
+  },
+  {
+   "id": "2026-05",
+   "label": "Mai/26",
+   "previsto": false,
+   "custos": {
+    "gian": 2327.38,
+    "dinheiro": 2310,
+    "vera": 845.62,
+    "condominio": 1831.5,
+    "iptu": 983,
+    "mkt": 725.01,
+    "mktacoes": 970.01,
+    "faxina": 540,
+    "limpeza": 130.47,
+    "energia": 110.77,
+    "internet": 99.99,
+    "vaga": 200
+   },
+   "receitas": {
+    "s1": 0,
+    "s2": 3464.71,
+    "s3": 0,
+    "s4": 0
+   },
+   "extras": [
+    {
+     "nome": "Mariana (Comodita)",
+     "valor": 3464.71
+    }
+   ]
+  },
+  {
+   "id": "2026-06",
+   "label": "Jun/26",
+   "previsto": false,
+   "custos": {
+    "gian": 2327.38,
+    "dinheiro": 2310,
+    "vera": 845.62,
+    "condominio": 1831.5,
+    "iptu": 983,
+    "mkt": 517.86,
+    "mktacoes": 636.09,
+    "faxina": 660,
+    "limpeza": 0,
+    "energia": 88.93,
+    "internet": 99.99,
+    "vaga": 200
+   },
+   "receitas": {
+    "s1": 0,
+    "s2": 3078.95,
+    "s3": 0,
+    "s4": 0
+   },
+   "extras": [
+    {
+     "nome": "Mariana (Comodita)",
+     "valor": 3588.95
+    },
+    {
+     "nome": "Evento pontual",
+     "valor": 6000
+    }
+   ]
+  },
+  {
+   "id": "2026-07",
+   "label": "Jul/26",
+   "previsto": false,
+   "custos": {
+    "gian": 2327.38,
+    "dinheiro": 2310,
+    "vera": 845.62,
+    "condominio": 1831.5,
+    "iptu": 983,
+    "mkt": 500,
+    "mktacoes": 885,
+    "faxina": 880,
+    "limpeza": 170.04,
+    "energia": 117.08,
+    "internet": 102,
+    "vaga": 200
+   },
+   "receitas": {
+    "s1": 0,
+    "s2": 3000,
+    "s3": 0,
+    "s4": 0
+   },
+   "extras": []
+  },
+  {
+   "id": "2026-08",
+   "label": "Ago/26",
+   "previsto": false,
+   "custos": {
+    "gian": 2327.38,
+    "dinheiro": 2310,
+    "vera": 845.62,
+    "condominio": 1831.5,
+    "iptu": 983,
+    "mkt": 0,
+    "mktacoes": 0,
+    "faxina": 440,
+    "limpeza": 0,
+    "energia": 0,
+    "internet": 99.99,
+    "vaga": 200
+   },
+   "receitas": {
+    "s1": 0,
+    "s2": 3000,
+    "s3": 3100,
+    "s4": 3100
+   },
+   "extras": []
+  },
+  {
+   "id": "2026-09",
+   "label": "Set/26",
+   "previsto": false,
+   "custos": {
+    "gian": 2327.38,
+    "dinheiro": 2310,
+    "vera": 845.62,
+    "condominio": 1831.5,
+    "iptu": 983,
+    "mkt": 0,
+    "mktacoes": 0,
+    "faxina": 440,
+    "limpeza": 0,
+    "energia": 200,
+    "internet": 99.99,
+    "vaga": 200
+   },
+   "receitas": {
+    "s1": 0,
+    "s2": 3000,
+    "s3": 3100,
+    "s4": 3100
+   },
+   "extras": []
+  },
+  {
+   "id": "2026-10",
+   "label": "Out/26",
+   "previsto": true,
+   "custos": {
+    "gian": 2327.38,
+    "dinheiro": 2310,
+    "vera": 845.62,
+    "condominio": 1831.5,
+    "iptu": 983,
+    "mkt": 0,
+    "mktacoes": 0,
+    "faxina": 440,
+    "limpeza": 0,
+    "energia": 200,
+    "internet": 99.99,
+    "vaga": 200
+   },
+   "receitas": {
+    "s1": 0,
+    "s2": 3000,
+    "s3": 3100,
+    "s4": 3100
+   },
+   "extras": []
+  },
+  {
+   "id": "2026-11",
+   "label": "Nov/26",
+   "previsto": true,
+   "custos": {
+    "gian": 2327.38,
+    "dinheiro": 2310,
+    "vera": 845.62,
+    "condominio": 1831.5,
+    "iptu": 983,
+    "mkt": 0,
+    "mktacoes": 0,
+    "faxina": 440,
+    "limpeza": 0,
+    "energia": 200,
+    "internet": 99.99,
+    "vaga": 200
+   },
+   "receitas": {
+    "s1": 0,
+    "s2": 3000,
+    "s3": 3100,
+    "s4": 3100
+   },
+   "extras": []
+  },
+  {
+   "id": "2026-12",
+   "label": "Dez/26",
+   "previsto": true,
+   "custos": {
+    "gian": 2327.38,
+    "dinheiro": 2310,
+    "vera": 845.62,
+    "condominio": 1831.5,
+    "iptu": 983,
+    "mkt": 0,
+    "mktacoes": 0,
+    "faxina": 440,
+    "limpeza": 0,
+    "energia": 200,
+    "internet": 99.99,
+    "vaga": 200
+   },
+   "receitas": {
+    "s1": 0,
+    "s2": 3000,
+    "s3": 3100,
+    "s4": 3100
+   },
+   "extras": []
+  },
+  {
+   "id": "2027-01",
+   "label": "Jan/27",
+   "previsto": true,
+   "custos": {
+    "gian": 2327.38,
+    "dinheiro": 2310,
+    "vera": 845.62,
+    "condominio": 1831.5,
+    "iptu": 983,
+    "mkt": 0,
+    "mktacoes": 0,
+    "faxina": 440,
+    "limpeza": 0,
+    "energia": 200,
+    "internet": 99.99,
+    "vaga": 200
+   },
+   "receitas": {
+    "s1": 0,
+    "s2": 3000,
+    "s3": 3100,
+    "s4": 3100
+   },
+   "extras": []
+  },
+  {
+   "id": "2027-02",
+   "label": "Fev/27",
+   "previsto": true,
+   "custos": {
+    "gian": 2327.38,
+    "dinheiro": 2310,
+    "vera": 845.62,
+    "condominio": 1831.5,
+    "iptu": 983,
+    "mkt": 0,
+    "mktacoes": 0,
+    "faxina": 440,
+    "limpeza": 0,
+    "energia": 200,
+    "internet": 99.99,
+    "vaga": 200
+   },
+   "receitas": {
+    "s1": 0,
+    "s2": 3000,
+    "s3": 3100,
+    "s4": 3100
+   },
+   "extras": []
+  }
+ ],
+ "invest": {
+  "obra": [
+   [
+    "2024-07-06",
+    "Geral",
+    "Adelino",
+    "Horas Extras Adelino",
+    240,
+    "",
+    "",
+    "Manu"
+   ],
+   [
+    "2025-05-03",
+    "Geral",
+    "Adelino",
+    "Horas Extras Adelino",
+    1220,
+    "",
+    "",
+    "Manu"
+   ],
+   [
+    "2026-01-30",
+    "Geral",
+    "Arquitetura/Urbanismo",
+    "RRT Parede",
+    130.64,
+    "",
+    "",
+    "Silvia"
+   ],
+   [
+    "2026-01-30",
+    "Geral",
+    "Arquiteto",
+    "Arquiteto RRT",
+    450,
+    "",
+    "",
+    "Silvia"
+   ],
+   [
+    "2026-01-30",
+    "Geral",
+    "Materiais Silvia",
+    "Materiais Pedro",
+    80,
+    "",
+    "",
+    "Silvia"
+   ],
+   [
+    "2026-02-08",
+    "Geral",
+    "Silvia Adelino",
+    "Adelino",
+    150,
+    "",
+    "",
+    "Silvia"
+   ],
+   [
+    "2026-02-08",
+    "Geral",
+    "Silvia Pedreiro",
+    "Sr. Pedro",
+    1300,
+    "",
+    "",
+    "Silvia"
+   ],
+   [
+    "2026-02-09",
+    "Geral",
+    "Fabiano Flow",
+    "Instalação Ar Condicionado",
+    1500,
+    "2x",
+    "PJ Itau",
+    "Manu"
+   ],
+   [
+    "2026-02-09",
+    "Geral",
+    "Deposito Tintas",
+    "20 Sacos Entulho",
+    50,
+    "",
+    "PF 9461",
+    "Manu"
+   ],
+   [
+    "2026-02-09",
+    "Geral",
+    "Deposito Tintas",
+    "20 Sacos Entulho",
+    50,
+    "",
+    "PF 9461",
+    "Manu"
+   ],
+   [
+    "2026-02-09",
+    "Geral",
+    "Joaquins Estaciona",
+    "Joabe Placas Drywall",
+    30,
+    "",
+    "Adelino",
+    "Manu"
+   ],
+   [
+    "2026-02-09",
+    "Olfa",
+    "Yamamura",
+    "Pendente Puxar Banheiro",
+    381.65,
+    "Bota Fora",
+    "PF 9461",
+    "Manu"
+   ],
+   [
+    "2026-02-09",
+    "Olfa",
+    "Use e Reuse",
+    "Moveis Olfa",
+    17329.32,
+    "12x",
+    "PF Itau",
+    "Manu"
+   ],
+   [
+    "2026-02-10",
+    "Geral",
+    "Mercado Livre",
+    "Cuba Lavabo 30x30",
+    298.04,
+    "",
+    "PF 9461",
+    "Manu"
+   ],
+   [
+    "2026-02-10",
+    "Geral",
+    "Mercado Livre",
+    "Torneira Cozinha Filtro",
+    163.7,
+    "",
+    "PF 9461",
+    "Manu"
+   ],
+   [
+    "2026-02-10",
+    "Geral",
+    "Mercado Livre",
+    "4 Filtros",
+    40,
+    "",
+    "PF 9461",
+    "Manu"
+   ],
+   [
+    "2026-02-10",
+    "Geral",
+    "Mercado Livre",
+    "Torneira Parede Cuba Preta",
+    118.91,
+    "",
+    "PF 9461",
+    "Manu"
+   ],
+   [
+    "2026-02-10",
+    "Olfa",
+    "Arte&Caves",
+    "Adega",
+    1990,
+    "a vista",
+    "PF Itau",
+    "Manu"
+   ],
+   [
+    "2026-02-11",
+    "Sala 2",
+    "Escuta o Veio",
+    "Cimento Líquido",
+    975,
+    "3x",
+    "8348",
+    "Manu"
+   ],
+   [
+    "2026-02-11",
+    "Geral",
+    "Adelino",
+    "Almoço Adelino",
+    60,
+    "Pix",
+    "PF Itaú",
+    "Manu"
+   ],
+   [
+    "2026-02-11",
+    "Geral",
+    "Materiais Joabe",
+    "Materiais",
+    738,
+    "Pix",
+    "PF Itaú",
+    "Manu"
+   ],
+   [
+    "2026-02-11",
+    "Geral",
+    "Joabe",
+    "Joabe Materiais",
+    738,
+    "",
+    "PF Itau",
+    "Manu"
+   ],
+   [
+    "2026-02-13",
+    "Olfa",
+    "Niazi Chohfi",
+    "Tapete",
+    899.9,
+    "10x",
+    "PF 9461",
+    "Manu"
+   ],
+   [
+    "2026-02-13",
+    "Sala 1",
+    "Casa das Luminárias",
+    "Iluminação Sala 1",
+    915.12,
+    "Pix",
+    "PF Itaú",
+    "Manu"
+   ],
+   [
+    "2026-02-13",
+    "Sala 2",
+    "Casa das Luminárias",
+    "Iluminação Sala 2",
+    695.64,
+    "Pix",
+    "PF Itaú",
+    "Manu"
+   ],
+   [
+    "2026-02-13",
+    "Olfa",
+    "Casa das Luminárias",
+    "Iluminação Sala 3",
+    483.6,
+    "Pix",
+    "PF Itaú",
+    "Manu"
+   ],
+   [
+    "2026-02-16",
+    "Olfa",
+    "Ladrilhos Saltenses",
+    "Azulejo Hidraulico",
+    928.72,
+    "Pix a vista",
+    "PJ Pix",
+    "Manu"
+   ],
+   [
+    "2026-02-17",
+    "Sala 2",
+    "Mercado Livre",
+    "Ar Condicionado 24.000 btu",
+    3899,
+    "10x",
+    "Gomes",
+    "Manu"
+   ],
+   [
+    "2026-02-17",
+    "Olfa",
+    "Frigelar",
+    "Ar Condicionado 9.000 btu",
+    2472.04,
+    "3x",
+    "Gomes",
+    "Manu"
+   ],
+   [
+    "2026-02-20",
+    "Olfa",
+    "Cadeiras Verde",
+    "Loiel",
+    1780,
+    "10x",
+    "PF Itau",
+    "Manu"
+   ],
+   [
+    "2026-02-21",
+    "Geral",
+    "Joabe",
+    "Joabe Materiais",
+    500,
+    "",
+    "CNPJ",
+    "Olfa"
+   ],
+   [
+    "2026-02-22",
+    "Geral",
+    "Adelino",
+    "Almoço Adelino",
+    60,
+    "Pix",
+    "Gomes",
+    "Manu"
+   ],
+   [
+    "2026-02-22",
+    "Sala 2",
+    "Leroy Merlin",
+    "Massa Corrida",
+    269.7,
+    "2x",
+    "Gomes",
+    "Manu"
+   ],
+   [
+    "2026-02-23",
+    "Sala 2",
+    "Leroy Merlin",
+    "Fios Tomadas",
+    251.71,
+    "a vista",
+    "PF Itaú",
+    "Manu"
+   ],
+   [
+    "2026-02-23",
+    "Sala 2",
+    "Materiais",
+    "Massa Acrílica",
+    574.59,
+    "",
+    "",
+    "Manu"
+   ],
+   [
+    "2026-02-23",
+    "Sala 2",
+    "Pintura Extra",
+    "Domingos",
+    1000,
+    "",
+    "",
+    "Manu"
+   ],
+   [
+    "2026-02-24",
+    "Geral",
+    "Nicom",
+    "Conduite / Luz Banheiro",
+    111.8,
+    "a vista",
+    "",
+    "Manu"
+   ],
+   [
+    "2026-02-24",
+    "Geral",
+    "Decor Colors",
+    "Textura Parede",
+    3109.53,
+    "3x",
+    "Gomes",
+    "Manu"
+   ],
+   [
+    "2026-02-25",
+    "Geral",
+    "Merdado Livre",
+    "Led Espelho",
+    196.69,
+    "a vista",
+    "PF Itaú",
+    "Manu"
+   ],
+   [
+    "2026-02-26",
+    "Geral",
+    "Leroy Merlin",
+    "Fio Ar Condicionado",
+    159.8,
+    "a vista",
+    "PF Itaú",
+    "Manu"
+   ],
+   [
+    "2026-02-26",
+    "Sala 2",
+    "Materias Joabe",
+    "Joabe Dry Wall Teto",
+    2024.9,
+    "",
+    "PF Itau",
+    "Manu"
+   ],
+   [
+    "2026-03-01",
+    "Geral",
+    "Adelino",
+    "Horas Extras Adelino",
+    1340,
+    "",
+    "PF Itaú",
+    "Manu"
+   ],
+   [
+    "2026-03-05",
+    "Geral",
+    "Mercado Livre",
+    "Rodapé",
+    355.8,
+    "1x",
+    "PF Itaú",
+    "Manu"
+   ],
+   [
+    "2026-03-06",
+    "Geral",
+    "Materiais Obra",
+    "Joabe",
+    589.69,
+    "Pix",
+    "PF Itaú",
+    "Manu"
+   ],
+   [
+    "2026-03-16",
+    "Geral",
+    "Leroy Merlin",
+    "Interruptor Banheiro",
+    41.06,
+    "1x",
+    "PF Itaú",
+    "Manu"
+   ],
+   [
+    "2026-03-16",
+    "Geral",
+    "Nicom",
+    "Sifão / Tinta Spray Banheiro",
+    142.5,
+    "1x",
+    "PF Itaú",
+    "Manu"
+   ],
+   [
+    "2026-03-22",
+    "Geral",
+    "Eletrolux",
+    "Frigobar e Microondas",
+    1558.9,
+    "10x",
+    "PF Itaú",
+    "Manu"
+   ],
+   [
+    "2026-03-27",
+    "Geral",
+    "Joabe",
+    "Joabe Materiais",
+    1109.53,
+    "",
+    "PF Itau",
+    "Manu"
+   ],
+   [
+    "2026-03-27",
+    "Geral",
+    "Joabe",
+    "Joabe Materiais",
+    400,
+    "",
+    "PF Itau",
+    "Manu"
+   ],
+   [
+    "2026-03-30",
+    "Olfa",
+    "Casa das Luminárias",
+    "Troca (Spot)",
+    47,
+    "Pix",
+    "PF Itau",
+    "Manu"
+   ],
+   [
+    "2026-03-30",
+    "Olfa",
+    "Yamamura",
+    "Arandela",
+    1727.9,
+    "",
+    "",
+    "Manu"
+   ],
+   [
+    "2026-03-30",
+    "Olfa",
+    "Yamamura",
+    "Luz Lab",
+    39.8,
+    "Pix",
+    "",
+    "Manu"
+   ],
+   [
+    "2026-03-31",
+    "Obra",
+    "Nicom",
+    "Tomadas e Interruptores",
+    1085.7,
+    "6x",
+    "PF Itau",
+    "Manu"
+   ],
+   [
+    "2026-04-01",
+    "Olfa",
+    "Mercado Livre",
+    "Maçanetas",
+    67.42,
+    "",
+    "",
+    "Manu"
+   ],
+   [
+    "2026-04-01",
+    "Olfa",
+    "Mercado Livre",
+    "Fechadura Banheiro Olfa",
+    74.22,
+    "1x",
+    "PF Itau",
+    "Manu"
+   ],
+   [
+    "2026-04-02",
+    "Geral",
+    "Adelino",
+    "Horas Extras Adelino",
+    1380,
+    "Pix",
+    "PJ Itaú Emps",
+    "Manu"
+   ],
+   [
+    "2026-04-03",
+    "Geral",
+    "Pratos Copos Cozinha",
+    "Deposito Pinheirense",
+    452.24,
+    "1x",
+    "PF Itaú",
+    "Manu"
+   ],
+   [
+    "2026-04-04",
+    "Geral",
+    "Mercado Livre",
+    "Puxador / Papeleira",
+    110.38,
+    "1x",
+    "PF Itau",
+    "Manu"
+   ],
+   [
+    "2026-04-04",
+    "Geral",
+    "Mercado Livre",
+    "4 Puxador Banheiro",
+    61.89,
+    "1x",
+    "PF Itau",
+    "Manu"
+   ],
+   [
+    "2026-04-05",
+    "Geral",
+    "Mercado Livre",
+    "Papeleira Dourada",
+    48.49,
+    "1x",
+    "PF Itau",
+    "Manu"
+   ],
+   [
+    "2026-04-05",
+    "Geral",
+    "Joabe",
+    "Joabe",
+    10000,
+    "",
+    "CNPJ",
+    "Olfa"
+   ],
+   [
+    "2026-04-06",
+    "Olfa",
+    "Loja Tintas",
+    "Tinta Lavabo",
+    226,
+    "Pix",
+    "PJ Itaú Emps",
+    "Manu"
+   ],
+   [
+    "2026-04-06",
+    "Olfa",
+    "Mercado Livre",
+    "Junça Linear",
+    36.49,
+    "1x",
+    "PF Itau",
+    "Manu"
+   ],
+   [
+    "2026-04-07",
+    "Olfa",
+    "Mercado Livre",
+    "Floreira",
+    295.6,
+    "1x",
+    "PF Itau",
+    "Manu"
+   ],
+   [
+    "2026-04-09",
+    "Geral",
+    "Mercado Livre",
+    "Dobradiça WC",
+    75.04,
+    "1x",
+    "PF Itau",
+    "Manu"
+   ],
+   [
+    "2026-04-10",
+    "Olfa",
+    "Mercado Livre",
+    "Floreira",
+    72.9,
+    "1x",
+    "PF Itau",
+    "Manu"
+   ],
+   [
+    "2026-04-10",
+    "Geral",
+    "Piso",
+    "Raspagem Piso",
+    4000,
+    "1x",
+    "PF Itau",
+    "Manu"
+   ],
+   [
+    "2026-04-13",
+    "Geral",
+    "Mercado Livre",
+    "6 Puxadores Madeira",
+    78.9,
+    "Pix",
+    "PF Itau",
+    "Manu"
+   ],
+   [
+    "2026-04-13",
+    "Olfa",
+    "Mercado Livre",
+    "Mesa Dobravel",
+    229.04,
+    "1x",
+    "PF Itau",
+    "Manu"
+   ],
+   [
+    "2026-04-13",
+    "Olfa",
+    "Mercado Livre",
+    "Maçaneta Sacada",
+    99.85,
+    "1x",
+    "PF Itau",
+    "Manu"
+   ],
+   [
+    "2026-04-17",
+    "Geral",
+    "Joabe",
+    "Joabe Materiais",
+    961.64,
+    "",
+    "CNPJ",
+    "Olfa"
+   ],
+   [
+    "2026-04-23",
+    "Olfa",
+    "Joabe",
+    "Joabe",
+    28000,
+    "",
+    "CNPJ",
+    "Olfa"
+   ],
+   [
+    "2026-04-23",
+    "Geral",
+    "Joabe",
+    "Joabe Materiais",
+    554.94,
+    "",
+    "CNPJ",
+    "Olfa"
+   ],
+   [
+    "2026-08-31",
+    "Geral",
+    "Arte Moderna",
+    "Sofá",
+    5579.8,
+    "10x",
+    "PF Itau",
+    "Manu"
+   ]
+  ],
+  "pre": [
+   [
+    "2021-04-11",
+    "Paper Shop",
+    "Papel Manteiga",
+    50.34
+   ],
+   [
+    "2021-06-22",
+    "Paper Shop",
+    "Papel A3 Jogo Americano",
+    138.02
+   ],
+   [
+    "2021-06-22",
+    "Mogi",
+    "Tecido Avental Lonita",
+    300
+   ],
+   [
+    "2021-06-22",
+    "Mercado Livre",
+    "Fita 30 mm Preta Avental",
+    109.09
+   ],
+   [
+    "2021-06-22",
+    "Mão de Obra Avental",
+    "Costureira Avental - Mayumi",
+    400
+   ],
+   [
+    "2021-06-22",
+    "Amazon.com",
+    "We R Memory Keepers",
+    239.34
+   ],
+   [
+    "2021-07-20",
+    "Amazon.com",
+    "Dremel 2025-15 Engraving",
+    329.82
+   ],
+   [
+    "2021-07-20",
+    "Canva",
+    "Canva Site",
+    239.9
+   ],
+   [
+    "2021-08-02",
+    "Leandro Doiis",
+    "Layout Workshop",
+    2200
+   ],
+   [
+    "2021-08-22",
+    "Comercio Silveira Martins",
+    "Frasco Rolon 10 ml Ambar",
+    25
+   ],
+   [
+    "2021-09-08",
+    "Comercio Silveira Martins",
+    "Sacolinha Preta Barata",
+    22.7
+   ],
+   [
+    "2021-09-08",
+    "Matriz Embalagens",
+    "Frasco Ambar 5ml + Tampa",
+    163.99
+   ],
+   [
+    "2021-09-08",
+    "Comercio Silveira Martins",
+    "Batoque Frasco Ambar 5 ml",
+    25.2
+   ],
+   [
+    "2021-09-08",
+    "Mercado Livre Gomes",
+    "Vidrinhos 1ml Ambar",
+    139.8
+   ],
+   [
+    "2021-09-08",
+    "Laszlo",
+    "Limão Siciliano e Cedro Virgínia",
+    109.11
+   ],
+   [
+    "2021-09-08",
+    "Casa das Essências",
+    "Pipetas",
+    150
+   ],
+   [
+    "2021-09-08",
+    "Casa das Essências",
+    "Becker 250 ml",
+    25
+   ],
+   [
+    "2021-09-08",
+    "Casa das Essências",
+    "Pisseta Granulada 250ml",
+    6.8
+   ],
+   [
+    "2021-09-08",
+    "Casa das Essências",
+    "Erlenmeyer 1000 ml",
+    61.7
+   ],
+   [
+    "2021-09-08",
+    "Casa das Essências",
+    "Erlenmeyer 500 ml",
+    36.2
+   ],
+   [
+    "2021-09-08",
+    "Casa das Essências",
+    "Funil 150ml",
+    87
+   ],
+   [
+    "2021-09-08",
+    "Casa das Essências",
+    "Vidro Retro Lente",
+    20
+   ],
+   [
+    "2021-09-08",
+    "Registro Br",
+    "Domínios Olfatecário e Olfateca",
+    224
+   ],
+   [
+    "2021-09-08",
+    "Kalunga SA",
+    "Impressora",
+    2402.01
+   ],
+   [
+    "2021-09-08",
+    "Chemev Evandro",
+    "Acorde Iris e Mps Theo",
+    583.13
+   ],
+   [
+    "2021-09-08",
+    "Chemev Evandro",
+    "Acordes 2",
+    1269.52
+   ],
+   [
+    "2022-01-18",
+    "Chemev Evandro",
+    "Methyl Pamplemousse",
+    61.88
+   ],
+   [
+    "2022-01-28",
+    "INPI",
+    "924178949 NCL(11):35",
+    446
+   ],
+   [
+    "2022-01-28",
+    "INPI",
+    "924178167 NCL(11):3",
+    446
+   ],
+   [
+    "2022-01-28",
+    "Michael's",
+    "Circuit tools",
+    239.49
+   ],
+   [
+    "2022-02-02",
+    "Cricut",
+    "Cricut Black Friday",
+    2253.366
+   ],
+   [
+    "2022-02-09",
+    "Tok & Stok",
+    "Luminária",
+    222.21
+   ],
+   [
+    "2022-02-09",
+    "Claudia Caixas",
+    "Caixas Perfume",
+    911.68
+   ],
+   [
+    "2022-02-09",
+    "Óleos Whole Foods",
+    "Grapefruit, Cardamon, Atlas Cedarwood",
+    177.06
+   ],
+   [
+    "2022-02-12",
+    "Canva",
+    "Artes",
+    291
+   ],
+   [
+    "2022-02-24",
+    "Claudia Caixas",
+    "Caixas Amostras e Frete",
+    255.32
+   ],
+   [
+    "2022-03-18",
+    "Adriano Mariscal",
+    "Resto das Tampas Madeira",
+    499.2
+   ],
+   [
+    "2022-03-18",
+    "Carol Designer",
+    "Arte Adesivos",
+    190
+   ],
+   [
+    "2022-03-18",
+    "Dibronze",
+    "Clichês e Sinete",
+    363
+   ],
+   [
+    "2022-03-18",
+    "Mariscal Madeiras",
+    "tampas de madeira",
+    1536
+   ],
+   [
+    "2022-03-18",
+    "Zele Ecobags",
+    "Ecobags",
+    1920
+   ],
+   [
+    "2022-03-18",
+    "Dibronze",
+    "Clichês Caixas Claudia",
+    310
+   ],
+   [
+    "2022-03-18",
+    "Chemev Evandro",
+    "Aromáticos",
+    2980.27
+   ],
+   [
+    "2022-03-18",
+    "Silhuette Scrapbook",
+    "Personalização",
+    1020.46
+   ],
+   [
+    "2022-03-18",
+    "Mercado Livre",
+    "Fita gordurão 13 mm",
+    39.89
+   ],
+   [
+    "2022-03-18",
+    "Chemev Evandro",
+    "Aromáticos",
+    745.07
+   ],
+   [
+    "2022-03-18",
+    "Aliexpress",
+    "Mesa Corte Papel",
+    213.74
+   ],
+   [
+    "2022-03-18",
+    "Aliexpress",
+    "Cortador Rotativo",
+    75.95
+   ],
+   [
+    "2022-03-21",
+    "Aliexpress",
+    "Circulo perfurador",
+    150.92
+   ],
+   [
+    "2022-03-23",
+    "Wix",
+    "Site Business VIP",
+    724.44
+   ],
+   [
+    "2022-03-28",
+    "Google Workspace",
+    "Gmail",
+    291.6
+   ],
+   [
+    "2022-03-28",
+    "Mercado Livre",
+    "Mic Boya",
+    115
+   ],
+   [
+    "2022-03-28",
+    "Aliexpress",
+    "Fifine Mic",
+    425.44
+   ],
+   [
+    "2022-03-28",
+    "Gunther",
+    "Chancela e Sinete",
+    495
+   ],
+   [
+    "2022-04-04",
+    "Matriz Embalagens",
+    "tampa enxerto",
+    167.2
+   ],
+   [
+    "2022-05-18",
+    "Matriz Embalagens",
+    "Frasco Bola 100 ml",
+    208.75
+   ],
+   [
+    "2022-05-18",
+    "Mariscal Madeiras",
+    "amostra tampas",
+    50
+   ],
+   [
+    "2022-05-18",
+    "Casa das Essências",
+    "becker 50 ml",
+    15.19
+   ],
+   [
+    "2022-05-18",
+    "Casa das Essências",
+    "becker 100ml",
+    8.07
+   ],
+   [
+    "2022-05-18",
+    "Casa das Essências",
+    "proveta 250 ml plastico",
+    11.4
+   ],
+   [
+    "2022-05-19",
+    "Casa das Essências",
+    "poveta 10 ml",
+    11.59
+   ],
+   [
+    "2022-05-20",
+    "Matriz Embalagens",
+    "tampa enxerto",
+    17.07
+   ],
+   [
+    "2022-05-20",
+    "Printi",
+    "aromaticos etiquetas",
+    71.08
+   ],
+   [
+    "2022-06-01",
+    "Matriz Farma",
+    "tampas vidro penincilina gordo",
+    39
+   ],
+   [
+    "2022-06-27",
+    "Paraíso das Essências",
+    "frascos ambar boca larga",
+    139.68
+   ],
+   [
+    "2022-06-29",
+    "Paraíso das Essências",
+    "tampa lacre frasco ambar aromaticos",
+    46.8
+   ],
+   [
+    "2022-07-04",
+    "Paraíso das Essências",
+    "vidro penicilina gordo 5ml",
+    78.52
+   ],
+   [
+    "2022-07-05",
+    "Printi",
+    "etiquetas amostras 5 ml",
+    123.81
+   ],
+   [
+    "2022-08-17",
+    "Leandro Doiis",
+    "cerâmica",
+    542.5
+   ],
+   [
+    "2022-08-17",
+    "Paraíso das Essências",
+    "frascos ambar boca larga",
+    58.59
+   ],
+   [
+    "2022-08-17",
+    "Paraíso das Essências",
+    "tampa veda",
+    19.63
+   ],
+   [
+    "2022-09-13",
+    "Paraíso das Essências",
+    "frascos 5 ml",
+    63.9
+   ],
+   [
+    "2022-09-13",
+    "Paraíso das Essências",
+    "valvulá 5 ml",
+    330
+   ],
+   [
+    "2022-09-15",
+    "Casa das Essências",
+    "álcool cereais cerealcool",
+    139.6
+   ],
+   [
+    "2022-09-25",
+    "Casa das Essências",
+    "batoque NR11",
+    10.5
+   ],
+   [
+    "2022-09-29",
+    "Casa das Essências",
+    "alcoometro",
+    98
+   ],
+   [
+    "2022-10-04",
+    "Casa das Essências",
+    "medidor plastico",
+    7.8
+   ],
+   [
+    "2022-10-04",
+    "Casa das Essências",
+    "Becker 50 ml",
+    24
+   ],
+   [
+    "2022-10-11",
+    "Casa das Essências",
+    "Becker 25 ml",
+    23.4
+   ],
+   [
+    "2022-10-13",
+    "Casa das Essências",
+    "Proveta 30 ml",
+    13.2
+   ],
+   [
+    "2022-10-17",
+    "Casa das Essências",
+    "Almotolia 60 ml",
+    2.5
+   ],
+   [
+    "2022-10-17",
+    "Chemev Evandro",
+    "Acordes 1",
+    1001.48
+   ],
+   [
+    "2022-10-29",
+    "Target Miami",
+    "Cricut Pens Kit",
+    80.946
+   ],
+   [
+    "2022-11-06",
+    "Matriz Embalagens",
+    "frasco bola 30 ml",
+    588.96
+   ],
+   [
+    "2022-11-08",
+    "Matriz Embalagens",
+    "válvula preta",
+    625.6
+   ],
+   [
+    "2022-11-09",
+    "Válvula Preta",
+    "Média Valor Válvula Preta",
+    638.8
+   ],
+   [
+    "2022-11-20",
+    "Mercado Livre",
+    "papel mata borrão",
+    93.9
+   ],
+   [
+    "2022-11-26",
+    "Matriz Embalagens",
+    "frascos bola 30 ml",
+    117.79
+   ],
+   [
+    "2022-12-15",
+    "Matriz Embalagens",
+    "maquina recrave",
+    1199
+   ],
+   [
+    "2022-12-15",
+    "Matriz Embalagens",
+    "válvula preta",
+    67.05
+   ],
+   [
+    "2022-12-26",
+    "Neolab",
+    "frascos aromáticos",
+    2256.25
+   ],
+   [
+    "2022-12-26",
+    "Casa Das Essências",
+    "becker 100 ml",
+    16
+   ],
+   [
+    "2023-02-03",
+    "Casa Das Essências",
+    "gral porcelana",
+    54
+   ],
+   [
+    "2023-03-15",
+    "Casa Das Essências",
+    "becker 150 ml",
+    21
+   ],
+   [
+    "2023-03-16",
+    "Casa Das Essências",
+    "becker 25 ml",
+    13.8
+   ],
+   [
+    "2023-03-30",
+    "Casa Das Essências",
+    "becker 50 ml",
+    15.4
+   ],
+   [
+    "2023-03-30",
+    "Casa Das Essências",
+    "pipeta 3ml",
+    80
+   ],
+   [
+    "2023-03-30",
+    "Casa Das Essências",
+    "funil 125ml",
+    37
+   ],
+   [
+    "2023-03-30",
+    "Casa Das Essências",
+    "proveta 30ml",
+    12.5
+   ],
+   [
+    "2023-03-30",
+    "Casa Das Essências",
+    "becker 600 ml",
+    40
+   ],
+   [
+    "2023-03-30",
+    "Casa Das Essências",
+    "pisseta granulada 125 ml",
+    6.6
+   ],
+   [
+    "2023-03-30",
+    "Casa Das Essências",
+    "proveta 50 ml",
+    42
+   ],
+   [
+    "2023-04-11",
+    "Casa Das Essências",
+    "frasco ambar 40 ml",
+    45
+   ],
+   [
+    "2023-11-03",
+    "Casa Das Essências",
+    "tampa e batoque 24mm",
+    22.5
+   ],
+   [
+    "2023-11-03",
+    "Wanny Essêmcias",
+    "vidro ambar 1L",
+    17.96
+   ],
+   [
+    "2023-11-03",
+    "Wanny Essêmcias",
+    "tampa rosca preta 1L",
+    1.2
+   ],
+   [
+    "2023-11-09",
+    "Wanny Essêmcias",
+    "batoque 21/5 1L",
+    0.8
+   ],
+   [
+    "2023-11-09",
+    "Mercado livre",
+    "palitos de bambu",
+    39
+   ],
+   [
+    "2024-10-28",
+    "Leandro Doiis",
+    "logo",
+    4700
+   ],
+   [
+    "2024-10-29",
+    "Godaddy",
+    "domínio .co",
+    280.97
+   ],
+   [
+    "2024-12-01",
+    "Godaddy",
+    "domínio .com",
+    172.82
+   ],
+   [
+    "2024-12-01",
+    "Amazon.com",
+    "balança",
+    712.1984
+   ],
+   [
+    "2024-12-11",
+    "Amazon.com",
+    "hot plate",
+    513.9486
+   ],
+   [
+    "2024-12-11",
+    "Amazon.com",
+    "silicone mat",
+    77.0486
+   ],
+   [
+    "2024-12-11",
+    "Amazon.com",
+    "termometro",
+    109.1736
+   ],
+   [
+    "2024-12-12",
+    "Amazon.com",
+    "heat gun",
+    87.3286
+   ],
+   [
+    "2024-12-12",
+    "Registro Br",
+    "domínio .com.br",
+    76
+   ],
+   [
+    "2026-03-12",
+    "Mercado Livre",
+    "Bonés",
+    280
+   ],
+   [
+    "2026-04-16",
+    "Zara Home",
+    "Mostruarios Perfume 1",
+    1449.5
+   ],
+   [
+    "2026-04-16",
+    "Zara Home",
+    "Mostruario Perfume 2",
+    539.8
+   ],
+   [
+    "2026-08-12",
+    "Zara Home",
+    "Porta Joias Noivas",
+    894.9
+   ],
+   [
+    "2026-08-13",
+    "Zara Home",
+    "Xicaras Café",
+    183.6
+   ],
+   [
+    "2026-08-13",
+    "Mercado Livre",
+    "Saleiro para os Aromáticos",
+    269.2
+   ],
+   [
+    "2026-08-13",
+    "Sams Club",
+    "Mesa Workshop",
+    327.67
+   ],
+   [
+    "2026-08-13",
+    "Sams Club",
+    "Cadeiras Workshop",
+    125.27
+   ]
+  ]
+ }
+}

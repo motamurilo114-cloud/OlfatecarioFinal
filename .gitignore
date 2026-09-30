@@ -1,5 +1,4 @@
 .env
-dados-iniciais.json
 node_modules/
 backend/
 dist/
