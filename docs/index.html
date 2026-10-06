@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="dark">
 <title>Olfatecario</title>
-<meta name="description" content="Ferramenta de gestão da Olfatecário para Windows e Mac. Baixe, abra e use.">
+<meta name="description" content="Ferramenta de gestão da Olfatecário para Mac com chip Apple. Baixe, abra e use.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Crect width='128' height='128' rx='30' fill='%231A1511'/%3E%3Crect x='40' y='58' width='48' height='44' rx='12' fill='none' stroke='%23E2B26B' stroke-width='6'/%3E%3Crect x='50' y='32' width='28' height='14' rx='4' fill='%23E2B26B'/%3E%3C/svg%3E">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
 <style>
@@ -40,7 +40,7 @@ a:focus-visible{outline:2px solid var(--amber);outline-offset:3px}
 .meta{font-family:var(--mono);font-size:13px;letter-spacing:.04em;color:var(--faint)}
 
 #baixar{display:flex;flex-direction:column;gap:20px;padding-block:24px;scroll-margin-top:16px}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.cards{display:grid;grid-template-columns:minmax(0,520px);justify-content:center;gap:20px}
 .dl{display:flex;flex-direction:column;gap:20px;min-width:0;padding:28px;border:1px solid var(--line);border-radius:20px;background:var(--surface);color:var(--fg);text-decoration:none;transition:border-color .18s,background .18s,transform .18s}
 .dl:hover{border-color:var(--amber);background:var(--surface-hover);color:var(--fg);transform:translateY(-2px)}
 .dl:hover .dl-btn{background:var(--amber-hover)}
@@ -64,7 +64,7 @@ strong{color:var(--fg);font-weight:600}
 .feature h3{margin:0;font-family:var(--display);font-weight:700;font-size:21px;letter-spacing:-.01em}
 .feature p{margin:0;font-size:16px;line-height:1.6;color:var(--dim)}
 
-.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
+.steps{display:grid;grid-template-columns:minmax(0,640px);justify-content:center;gap:20px}
 .steps .box{min-width:0;padding:28px;border:1px solid var(--line);border-radius:20px;background:var(--surface);display:flex;flex-direction:column;gap:18px}
 .steps h3{margin:0;font-family:var(--display);font-weight:700;font-size:22px;letter-spacing:-.01em}
 ol{margin:0;padding:0 0 0 22px;display:flex;flex-direction:column;gap:12px;font-size:16px;line-height:1.6;color:var(--muted)}
@@ -94,23 +94,11 @@ footer .mono{font-family:var(--mono);font-size:12px;letter-spacing:.04em}
     <svg width="128" height="128" viewBox="0 0 128 128" fill="none" role="img" aria-label="Ícone do Olfatecario: um frasco de perfume"><rect x="1" y="1" width="126" height="126" rx="30" fill="#1A1511" stroke="#2E2823" stroke-width="2"/><path d="M42 80 q11 -7 22 0 t22 0 V92 a10 10 0 0 1 -10 10 H52 a10 10 0 0 1 -10 -10 Z" fill="#E2B26B" fill-opacity="0.85"/><rect x="40" y="58" width="48" height="44" rx="12" stroke="#E2B26B" stroke-width="3.5"/><rect x="54" y="46" width="20" height="12" rx="3" stroke="#E2B26B" stroke-width="3.5"/><rect x="50" y="32" width="28" height="14" rx="4" fill="#E2B26B"/><circle cx="96" cy="30" r="2.5" fill="#E2B26B" fill-opacity="0.6"/><circle cx="102" cy="40" r="2" fill="#E2B26B" fill-opacity="0.45"/><circle cx="92" cy="40" r="1.5" fill="#E2B26B" fill-opacity="0.35"/></svg>
     <h1>Olfatecario</h1>
     <p class="lead">A ferramenta de gestão da Olfatecário, agora como programa para o seu computador. Baixe, abra e use.</p>
-    <p class="meta">Versão 1.0.0 · Windows e macOS</p>
+    <p class="meta">Versão 1.0.0 · macOS com chip Apple</p>
   </section>
 
   <section id="baixar" class="wrap" aria-label="Downloads">
     <div class="cards">
-
-      <a class="dl" data-asset="Olfatecario.exe" href="https://github.com/motamurilo114-cloud/OlfatecarioFinal/releases/latest">
-        <div class="dl-top">
-          <div class="dl-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg></div>
-          <span class="tag">.exe portátil</span>
-        </div>
-        <div>
-          <div class="dl-title">Windows</div>
-          <div class="dl-text">Windows 10 e 11. Não precisa instalar: dê dois cliques no arquivo e o programa abre.</div>
-        </div>
-        <div class="dl-btn"><span>Baixar para Windows</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v12M7 11l5 5 5-5M5 20h14"/></svg></div>
-      </a>
 
       <a class="dl" data-asset="Olfatecario-Mac-arm64.dmg" href="https://github.com/motamurilo114-cloud/OlfatecarioFinal/releases/latest">
         <div class="dl-top">
@@ -124,22 +112,11 @@ footer .mono{font-family:var(--mono);font-size:12px;letter-spacing:.04em}
         <div class="dl-btn"><span>Baixar para Apple Silicon</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v12M7 11l5 5 5-5M5 20h14"/></svg></div>
       </a>
 
-      <a class="dl" data-asset="Olfatecario-Mac-x64.dmg" href="https://github.com/motamurilo114-cloud/OlfatecarioFinal/releases/latest">
-        <div class="dl-top">
-          <div class="dl-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="5" width="16" height="11" rx="1.5"/><path d="M2 19h20"/></svg></div>
-          <span class="tag">.dmg · x86_64</span>
-        </div>
-        <div>
-          <div class="dl-title">Mac Intel</div>
-          <div class="dl-text">Macs com processador Intel, os modelos mais antigos. Também abre nos Macs com chip Apple, mais devagar.</div>
-        </div>
-        <div class="dl-btn"><span>Baixar para Intel</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v12M7 11l5 5 5-5M5 20h14"/></svg></div>
-      </a>
 
     </div>
     <div class="note">
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#E2B26B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></svg>
-      <div>Não sabe qual é o seu Mac? Clique no menu Apple e escolha <strong>Sobre este Mac</strong>. Se aparecer <strong>Chip Apple M…</strong>, baixe a versão Apple Silicon. Se aparecer <strong>Processador Intel</strong>, baixe a versão Intel.</div>
+      <div>Esta versão é só para Macs com chip Apple (M1, M2, M3 ou mais novo). Para conferir, clique no menu Apple e escolha <strong>Sobre este Mac</strong>: deve aparecer <strong>Chip Apple M…</strong>. Se aparecer <strong>Processador Intel</strong>, ainda não há versão para o seu Mac.</div>
     </div>
   </section>
 
@@ -168,14 +145,6 @@ footer .mono{font-family:var(--mono);font-size:12px;letter-spacing:.04em}
           <li>Abra o arquivo <code>.dmg</code> e arraste o Olfatecario para a pasta Aplicativos.</li>
           <li>Clique com o <strong>botão direito</strong> no Olfatecario e escolha <strong>Abrir</strong>.</li>
           <li>Confirme em <strong>Abrir</strong>. Nas próximas vezes, basta dois cliques.</li>
-        </ol>
-      </div>
-      <div class="box">
-        <h3>No Windows</h3>
-        <ol>
-          <li>Dê dois cliques em <code>Olfatecario.exe</code>.</li>
-          <li>Se aparecer o aviso azul do Windows, clique em <strong>Mais informações</strong> e depois em <strong>Executar assim mesmo</strong>.</li>
-          <li>Espere alguns segundos. A janela abre sozinha.</li>
         </ol>
       </div>
     </div>
