@@ -46,4 +46,4 @@ A pasta `docs/` serve o GitHub Pages: Settings > Pages > Deploy from a branch > 
 ## Atenção
 
 - O build inclui `servidor/dados-iniciais.json` (dados da obra e custos do prédio) quando o arquivo existe no repositório. Se os instaladores forem públicos, esses dados vão junto. Para um build sem eles, defina `SEM_DADOS_INICIAIS=1` no passo de build do workflow, ou localmente ao rodar `npm run backend`.
-- O app não é assinado por conta de desenvolvedor paga. No Mac, quem baixar abre com botão direito > Abrir na primeira vez. No Windows aparece o aviso do SmartScreen ("Mais informações" > "Executar assim mesmo").
+- O app não é assinado por conta de desenvolvedor paga. No Mac, o app baixado da internet aparece como "danificado" (é a quarentena do Gatekeeper, o arquivo não está corrompido). Quem baixar precisa rodar uma vez, depois de copiar para Aplicativos: `xattr -cr /Applications/Olfatecario.app`. Se ainda reclamar: Ajustes do Sistema > Privacidade e Segurança > "Abrir mesmo assim". O "botão direito > Abrir" não funciona mais desde o macOS 15. No Windows aparece o aviso do SmartScreen ("Mais informações" > "Executar assim mesmo").
