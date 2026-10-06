@@ -69,6 +69,7 @@ strong{color:var(--fg);font-weight:600}
 .steps h3{margin:0;font-family:var(--display);font-weight:700;font-size:22px;letter-spacing:-.01em}
 ol{margin:0;padding:0 0 0 22px;display:flex;flex-direction:column;gap:12px;font-size:16px;line-height:1.6;color:var(--muted)}
 code{font-family:var(--mono);font-size:14px;color:var(--fg)}
+.cmd{display:block;margin-top:10px;padding:12px 14px;border:1px solid var(--line-strong);border-radius:12px;background:var(--surface-2);font-size:13px;white-space:nowrap;overflow-x:auto;user-select:all}
 .small{margin:0;max-width:640px;font-size:15px;line-height:1.6;color:var(--faint)}
 
 footer .wrap{margin-top:56px;padding-block:28px 48px;border-top:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;color:var(--faint);font-size:14px}
@@ -143,12 +144,14 @@ footer .mono{font-family:var(--mono);font-size:12px;letter-spacing:.04em}
         <h3>No Mac</h3>
         <ol>
           <li>Abra o arquivo <code>.dmg</code> e arraste o Olfatecario para a pasta Aplicativos.</li>
-          <li>Clique com o <strong>botão direito</strong> no Olfatecario e escolha <strong>Abrir</strong>.</li>
-          <li>Confirme em <strong>Abrir</strong>. Nas próximas vezes, basta dois cliques.</li>
+          <li>Abra o <strong>Terminal</strong> (aperte <code>Cmd + Espaço</code>, digite <em>Terminal</em> e Enter), cole o comando abaixo e aperte Enter. Ele libera o app para abrir.
+            <code class="cmd">xattr -cr /Applications/Olfatecario.app</code>
+          </li>
+          <li>Abra o Olfatecario normalmente. Se o Mac ainda reclamar, vá em <strong>Ajustes do Sistema &gt; Privacidade e Segurança</strong> e clique em <strong>Abrir mesmo assim</strong>.</li>
         </ol>
       </div>
     </div>
-    <p class="small">Esses avisos aparecem porque o programa não é assinado por uma conta de desenvolvedor paga. O arquivo é o mesmo que a Olfatecário usa.</p>
+    <p class="small">Se o Mac disser que o Olfatecario está “danificado”, o arquivo não está corrompido. O aviso aparece porque o programa não é assinado por uma conta de desenvolvedor paga da Apple, e o comando acima resolve. Só é preciso fazer isso uma vez.</p>
   </section>
 </main>
 
