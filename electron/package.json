@@ -34,6 +34,7 @@
     },
     "mac": {
       "target": "dmg",
+      "artifactName": "Olfatecario-Mac-${arch}.${ext}",
       "category": "public.app-category.business",
       "identity": "-"
     },
